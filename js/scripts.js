@@ -30,6 +30,6 @@ function convertToBoop(userNumber) {
 function showList(array) {
   $('#list').html("");
   array.forEach(function(number,i){
-    $('#list').append(number+"<br>");
+    $('#list').append(number+" ");
   })
 }
