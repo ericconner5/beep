@@ -16,43 +16,35 @@ _A simple webpage that displays a range of numbers starting with zero and ending
 
 *_Program replaces 0 with "Beep!"_
   -Example Input: 0
-  -Example Output: ["Beep!"]
+  -Example Output: "Beep!"
 
 *_Program replaces numbers that contain a 1 with "Boop!"
   -Example Input: 1
-  -Example Output: ["Boop!"]
+  -Example Output: "Boop!"
 
 *_Program replaces numbers that are divisable by 3 with "I'm sorry, Dave. I'm afraid I can't do that."
-  -Example Input: 12
-  -Example Output: "I'm sorry, Dave. I'm afraid I can't do that."
-*
-*
-
+  -Example Input: 3
+  -Example Output: "Beep! Boop! 2 I'm sorry, Dave. I'm afraid I can't do that."
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Download the beep folder_
+* _Open the index.html file in a web browser (Chrome is best)_
+* _Enter numbers to Beep Boop_
 
 ## Known Bugs
 
-_The number field accepts the letter "e" and the character "."_
+_The number field accepts the letter "e" and the character "." and possibly many more_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_I'm available to help and happy to receive feedback. Contact me by way of email, please. theluvq@gmail.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_Code written in Atom. Research gathered with Chrome. Additional resources used: jQuery and Bootstrap JavaScript libraries._
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2018 **_Eric Conner, Epicodus_**
+This software is licensed under the MIT license.
