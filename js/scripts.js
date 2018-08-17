@@ -1,6 +1,7 @@
-
+var gInputID = ["#user-number"]
 $(document).ready(function(){
   $("#submit-button").click(function(){
-    var userNumber = $("#user-number").val()
+    var userNumber = parseInt("#user-number")
+    alert(gInputID)
   });
 });

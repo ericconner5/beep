@@ -12,8 +12,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 *_Program only accepts numeric input._
   -Example Input: 10:30pm
-  -Example Output: "Plz, numbers only here, fren. Open the pod bay door, Hal."
-*_Program only accepts positive numeric input._
+  -Example Output: No output, field only accepts numbers._
   -Example Input: -45
   -Example Output: "Hey, this is only for positive numbers. Negativity will not compute."
 *_Program replaces 0 with "Beep!"_
