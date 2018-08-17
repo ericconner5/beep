@@ -1,7 +1,9 @@
 body {
-  background-image: url("img/2001.jpg");
-}
-
-body {
-
+  background-image: url("../img/2001.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+  text-shadow: .03em .08em #f0e;
+  text-align: center;
 }

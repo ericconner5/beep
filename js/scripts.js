@@ -1,14 +1,13 @@
-var gInputID = ["#user-number"]
 $(document).ready(function(){
   $("#submit-button").click(function() {
     var userNumber = parseInt($("#user-number").val());
-    var boopArray = convertToBoop(userNumber)
-    showList(boopArray)
+    var boopArray = convertToBoop(userNumber);
+    showList(boopArray);
   });
 });
 
 function convertToBoop(userNumber) {
-  var output = []
+  var output = [];
   for (var i=0; i<=userNumber; i++) {
     var numberString = i.toString();
 
@@ -23,15 +22,14 @@ function convertToBoop(userNumber) {
     }
 
   }
-  return output
+  return output;
 }
-
 
 //front end
 
 function showList(array) {
-  $('#list').html("")
+  $('#list').html("");
   array.forEach(function(number,i){
-    $('#list').append(number+"<br>")
+    $('#list').append(number+"<br>");
   })
 }
