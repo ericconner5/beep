@@ -6,25 +6,25 @@
 
 ## Description
 
-_A simple webpage that displays a range of numbers starting with zero and ending with the number the user chooses. Numbers with a 0 character are changed to "Beep!". Numbers with a 1 character are changed to "Boop!". Numbers divisible by 3 are changed to a quote from a movie: "I'm sorry, Dave. I'm afraid I can't do that." -HAL, 2001: A Space Odyssey.
+A simple webpage that displays a range of numbers starting with zero and ending with the number the user chooses. Numbers with a 0 character are changed to "Beep!". Numbers with a 1 character are changed to "Boop!". Numbers divisible by 3 are changed to a quote from a movie: "I'm sorry, Dave. I'm afraid I can't do that." -HAL, 2001: A Space Odyssey.
 
 ## Specifications
 
 *_Program only accepts numeric input._
-  -Example Input: 2am
-  -Example Output: Beep, Boop, 2
+  ** Example Input: 2am
+  ** Example Output: Beep, Boop, 2
 
 *_Program replaces 0 with "Beep!"_
-  -Example Input: 0
-  -Example Output: "Beep!"
+  ** Example Input: 0
+  ** Example Output: "Beep!"
 
-*_Program replaces numbers that contain a 1 with "Boop!"
-  -Example Input: 1
-  -Example Output: "Boop!"
+*_Program replaces numbers that contain a 1 with "Boop!"_
+  ** Example Input: 1
+  ** Example Output: "Boop!"
 
-*_Program replaces numbers that are divisable by 3 with "I'm sorry, Dave. I'm afraid I can't do that."
-  -Example Input: 3
-  -Example Output: "Beep! Boop! 2 I'm sorry, Dave. I'm afraid I can't do that."
+*_Program replaces numbers that are divisable by 3 with "I'm sorry, Dave. I'm afraid I can't do that."_
+  ** Example Input: 3
+  ** Example Output: "Beep! Boop! 2 I'm sorry, Dave. I'm afraid I can't do that."
 
 ## Setup/Installation Requirements
 
