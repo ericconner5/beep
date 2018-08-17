@@ -1,28 +1,29 @@
 # _Beep Boop_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A simple webpage that displays a range of numbers starting with zero and ending with the number the user chooses. Changes some input into silliness. {17 Aug 2018}_
 
-#### By _**{List of contributors}**_
+#### By _**Eric Conner**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_A simple webpage that displays a range of numbers starting with zero and ending with the number the user chooses. Numbers with a 0 character are changed to "Beep!". Numbers with a 1 character are changed to "Boop!". Numbers divisible by 3 are changed to a quote from a movie: "I'm sorry, Dave. I'm afraid I can't do that." -HAL, 2001: A Space Odyssey.
 
 ## Specifications
 
 *_Program only accepts numeric input._
-  -Example Input: 10:30pm
-  -Example Output: No output, field only accepts numbers._
-  -Example Input: -45
-  -Example Output: "Hey, this is only for positive numbers. Negativity will not compute."
+  -Example Input: 2am
+  -Example Output: Beep, Boop, 2
+
 *_Program replaces 0 with "Beep!"_
   -Example Input: 0
   -Example Output: ["Beep!"]
+
 *_Program replaces numbers that contain a 1 with "Boop!"
-  -Example Input: 0381
+  -Example Input: 1
   -Example Output: ["Boop!"]
+
 *_Program replaces numbers that are divisable by 3 with "I'm sorry, Dave. I'm afraid I can't do that."
-  -Example Input: 27
+  -Example Input: 12
   -Example Output: "I'm sorry, Dave. I'm afraid I can't do that."
 *
 *
@@ -40,7 +41,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_The number field accepts the letter "e" and the character "."_
 
 ## Support and contact details
 

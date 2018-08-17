@@ -1,19 +1,37 @@
 var gInputID = ["#user-number"]
 $(document).ready(function(){
   $("#submit-button").click(function() {
-    var userNumber = []
     var userNumber = parseInt($("#user-number").val());
-      // userNumber.push($(id).val())
-      // $(gInputID.forEach(function(id)
-      // alert(userNumber)
-      if (userNumber === 0) {
-      $("#zero").show();
-    }
-      if (userNumber === 1) {
-      $("#one").show();
-    }
-    event.preventDefault();
-
-  ;
+    var boopArray = convertToBoop(userNumber)
+    showList(boopArray)
   });
 });
+
+function convertToBoop(userNumber) {
+  var output = []
+  for (var i=0; i<=userNumber; i++) {
+    var numberString = i.toString();
+
+    if (i % 3 === 0 && i !== 0) {
+      output.push("I'm sorry, Dave. I'm afraid I can't do that.");
+    } else if (numberString.includes("1")) {
+      output.push("Boop!");
+    } else if (numberString.includes("0")) {
+      output.push("Beep!");
+    } else {
+      output.push(numberString);
+    }
+
+  }
+  return output
+}
+
+
+//front end
+
+function showList(array) {
+  $('#list').html("")
+  array.forEach(function(number,i){
+    $('#list').append(number+"<br>")
+  })
+}
