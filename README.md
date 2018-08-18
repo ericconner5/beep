@@ -11,19 +11,27 @@ A simple webpage that displays a range of numbers starting with zero and ending 
 ## Specifications
 
 *_Program only accepts numeric input._
-  ** Example Input: 2am
+  
+  **_Example Input: 2am_
+  
   ** Example Output: Beep, Boop, 2
 
 *_Program replaces 0 with "Beep!"_
+  
   ** Example Input: 0
+  
   ** Example Output: "Beep!"
 
 *_Program replaces numbers that contain a 1 with "Boop!"_
+  
   ** Example Input: 1
+  
   ** Example Output: "Boop!"
 
 *_Program replaces numbers that are divisable by 3 with "I'm sorry, Dave. I'm afraid I can't do that."_
+  
   ** Example Input: 3
+  
   ** Example Output: "Beep! Boop! 2 I'm sorry, Dave. I'm afraid I can't do that."
 
 ## Setup/Installation Requirements
